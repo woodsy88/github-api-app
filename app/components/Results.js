@@ -63,7 +63,7 @@ class Results extends React.Component {
     
     const { playerOneName, playerTwoName } = queryString.parse(search);
     
-    console.log('players: ', players);
+    // console.log('players: ', players);
 
     api.battle([
       playerOneName,
